@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wpgft_orderProc {
+	margin: 0 auto;
+	width: 500px;
+}
+.wpgft_req, .wpgft_error {
+	color: red;
+	font-weight: bold;
+}
+
+.wpgft_error {
+	margin-left: 125px;
+	display: block;
+}
+
+.wpgft_fieldset {
+	background: none repeat scroll #ffffff;
+	border-color: #ECECEC #ADADAD #ADADAD #ECECEC;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 10px;
+	padding: 5px 0 15px;
+	color: #000;
+}
+
+.wpgft_titleBox {
+	background: none repeat scroll #c6c6c6;
+	clear: both;
+	letter-spacing: 1px;
+	margin: 10px 0 !important;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.wpgft_mainList, .wpgft_orderList, .wpgft_recipientList {
+	margin: 0 1.5em;
+}
+
+#orderPhoneArea, #orderPhoneExc {
+	width: 35px;
+}
+
+#orderPhoneNum {
+	width: 75px;
+}
+
+.wpgft_mainList dt, .wpgft_orderList dt, .wpgft_recipientList dt {
+	display: inline-block;
+	float: left;
+	margin: 4px 10px 0 0;
+	text-align: right;
+	vertical-align: top;
+	width: 125px;
+	font-weight: bold;
+}
+
+.wpgft_mainList dd, .wpgft_orderList dd, .wpgft_recipientList dd {
+	margin: 0;
+	padding: 5px;
+}
+
+/************ Styles for displaying the Certificate Buttons ******************/
+.wpgft-btn-form .bluebtn1 {
+	border: none; 
+	width: 150px; 
+	height: 25px;
+	color: #fff; 
+	cursor: pointer;
+	background: url('../images/bluebtn1.png') repeat-x;
+}
+.wpgft-btn-form .orangebtn1 {
+	border: none; 
+	width: 150px; 
+	height: 25px;
+	color: #fff; 
+	cursor: pointer;
+	background: url('../images/orangebtn1.png') repeat-x;
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+.wpgft-btn-form .orangebtn1:hover {
+	color: #000;
+	background: url('../images/orangebtn1_hover.png') repeat-x;
+}
+
+.wpgft-btn-form dl {
+	clear: both;
+	margin-bottom: 15px;
+	/* border: solid 1px; */
+	border-top: solid 0;
+	width: 75%;
+	
+}
+
+.wpgft-btn-form dl dt {
+	float: left;
+	clear: left;
+	width: 100px;
+	background: none repeat scroll 0 0 transparent;
+	font-weight: bold;
+	min-height: 26px;
+	padding: 5px;
+	/*border-top: solid 1px; */
+}
+.wpgft-btn-form dl dd {
+	background: none repeat scroll 0 0 #ffffff;
+	margin-bottom: 0;
+	color: #000;
+	margin-left: 110px;
+	min-height: 26px;
+	/* border-top: solid 1px #fff;
+	border-left: solid 1px #fff; */
+	padding: 5px;
+}
+
+.wpgft-table .disabled-box {
+	border: medium none;
+	background: none;
+}
